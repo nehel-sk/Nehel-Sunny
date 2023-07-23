@@ -1,0 +1,181 @@
+/*-- banner --*/
+.banner{
+	background:url(images/1661149905825.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+    min-height: 765px;
+	position: relative;
+}
+.banner-layer {
+    background: url(images/1661149905825.jpg)repeat;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 765px;
+}
+.agile_banner_margin {
+    padding: 18em 0em 0em;
+}
+.image_margin {
+    margin-top: 8em;
+}
+.agile_banner_info h2 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.agile_banner_info h4 {
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-top: 8px;
+    font-weight: 600;
+    /*margin-bottom: 25px;*/
+     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.agile_banner_info h5 {
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 25px;
+    /*margin-bottom: 5px;*/
+    font-weight: 600;
+     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.agile_banner_info p{
+    color: #fff;
+    margin: 1em 0;
+    line-height: 2em;
+    letter-spacing: 1px;
+    font-size: 15px;
+
+}
+.agile_banner_info a {
+    padding: 11px 35px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 1.5em;
+    border-radius: 35px;
+}
+.agile_banner_info a:hover {
+    background: #fff;
+    border: 2px solid #fff;
+    color: #333;
+}
+/*-- banner --*/
+
+
+/*-- project section --*/
+.card:hover{
+    transform: scale(1);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+#pj{
+    padding: 50px;
+  }
+  .card{
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+  }
+  
+  .card:hover{
+       transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+
+  
+  .card img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-height: 120px;
+  }
+  
+  .card-1{
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .card-2{
+     background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .card-3{
+     background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  /*-- project section --*/
+
+
+  
+/*--contact form--*/  
+
+h1, h2, h3, h4, h5, h6{
+    color: #000;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+#fh5co-main {
+  
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-main .fh5co-narrow-content {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+.form-control{
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
+  height: 54px !important;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px !important;
+}
+#message {
+  height: 130px !important;
+}
+.btn.btn-md {
+  padding: 10px 25px !important;
+}
+.btn-primary {
+  background: #da1212 !important;
+  color: #fff !important;
+  border: 2px solid #da1212 !important;
+border-radius: 0px !important;
+}
